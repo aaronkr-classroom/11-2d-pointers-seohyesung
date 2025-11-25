@@ -8,7 +8,7 @@ int main(void) {
 
 	//입력 받기
 	for (ages = 0; ages < 3; ages++) {
-		printf("\n%d대 연령의 윗몸 일으키기 횟수\n", ages + 2);
+		printf("\n%d0대 연령의 윗몸 일으키기 횟수\n", ages + 2);
 
 		// 순서대로 입력 받기
 		for (member = 0; member < limit_table[ages]; member++) {
